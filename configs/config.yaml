@@ -1,0 +1,17 @@
+app:
+  name: rekosistem-test
+  version: 1.0.0
+  scheme: http
+  host: localhost
+  port: 3002
+
+db:
+  host: localhost
+  port: 5432
+  dbname: test_db
+  user: postgres
+  password: password
+  ssl_mode: disable
+  timezone: Asia/Jakarta
+  max_open_connection: 50
+  max_iddle_connection: 50
